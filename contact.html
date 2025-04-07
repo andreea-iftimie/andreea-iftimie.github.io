@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumea la un click distanță</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lumea la un click distanță</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="aventuri.html">Aventuri în natură</a></li>
+                <li><a href="orase.html">Orașe de explorat</a></li>
+                <li><a href="gastronomie.html">Gastronomie globală</a></li>
+                <li><a href="cultură.html">Cultură și tradiții</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Pagina Contact -->
+        <section>
+            <h2>Contact</h2>
+            <img src="images/contact.jpg" alt="Contact travel">
+            <p>
+                Ai întrebări, sugestii sau vrei să împărtășești propria ta experiență de călătorie? Suntem bucuroși să te auzim! Fie că ai nevoie de recomandări, ai o idee de colaborare sau pur și simplu dorești să ne saluți, poți folosi informațiile de mai jos pentru a lua legătura cu noi.
+            </p>
+            <p>
+                <strong>Email:</strong> lumealaunclick@example.com<br>
+                <strong>Telefon:</strong> +40 712 345 678<br>
+                <strong>Adresă:</strong> Strada Călătoriei, Nr. 10, București, România
+            </p>
+           
+            <p>
+                Dacă preferi, poți completa formularul de mai jos, iar noi îți vom răspunde în cel mai scurt timp:
+            </p>
+            <form>
+                <label for="nume">Nume:</label><br>
+                <input type="text" id="nume" name="nume"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="mesaj">Mesaj:</label><br>
+                <textarea id="mesaj" name="mesaj" rows="5" cols="30"></textarea><br><br>
+                <input type="submit" value="Trimite">
+            </form>
+            <p>
+                Îți mulțumim că faci parte din comunitatea noastră de exploratori și călători pasionați. Lumea este mai frumoasă atunci când o descoperim împreună!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <button onclick="location.href='cultură.html'">← Pagina anterioară</button>
+        <button onclick="location.href='index.html'">Pagina următoare →</button>
+        <p>Site creat de Andreea Iftimie</p>
+    </footer>
+</body>
+</html>
